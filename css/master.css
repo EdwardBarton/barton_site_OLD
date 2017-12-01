@@ -1,13 +1,8 @@
 body {
     margin-top: 5%;
     background: url(http://bit.ly/2j9HGE8) no-repeat center center fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-}
-
-img {
-    border-radius: 50%;
-    margin: 3% 0;
 }
