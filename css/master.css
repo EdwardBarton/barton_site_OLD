@@ -1,8 +1,91 @@
-body {
-    margin-top: 5%;
+/***** GENERAL *****/
+html, body {
+    height: 100%;
     background: url(https://bit.ly/2j9HGE8) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron {
+    background: black;
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.85);
+}
+
+.section-title {
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+p, .btn {
+    letter-spacing: 1px;
+}
+
+/***** .ABOUT *****/
+.name {
+    letter-spacing: 3px;
+}
+
+/***** .TECHNOLOGIES *****/
+.tech-icons i {
+    font-size: 3em;
+    margin-left: 0.3em;
+}
+
+.fa-html5 {
+    color: orangered;
+}
+
+.fa-git-square {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: lightskyblue;
+}
+
+.fa-github-square {
+    color: purple;
+}
+
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-database {
+    color: gray;
+}
+
+/***** .SOCIAL-MEDIA *****/
+.social-media {
+    margin-top: 2.5em;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+.fa-facebook-f {
+    color: #3B5998;
+}
+
+.fa-twitter {
+    color: #1dcaff;
+}
+
+.fa-github {
+    color: purple;
+}
+
+.fa-linkedin-in {
+    color: #0077b5;
+}
+
+.fa-instagram  {
+    color: #cd486b;
 }
